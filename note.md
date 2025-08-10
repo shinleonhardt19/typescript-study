@@ -35,5 +35,14 @@ let userName: Array<string | number>; // Another way to define an array which ha
     job: "Hacker"
 }</pre>
 
-
+**Object defining**
+Defining an object with the data type of both key and value
+<pre>
+type Waifus: Record<string|number|any, string|number>;
+const my_wife: Waifus = {
+    waifu_1: "Bronya", // The key can be a string 
+    waifu_2: "Aigis", // The key can be a number
+    1: "Priority number 1" // The key can be any
+} // The value carried by the keys can be either string or number since it is declared as string|number
+</pre>
 
