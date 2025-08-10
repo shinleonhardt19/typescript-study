@@ -51,3 +51,19 @@ const my_wife: Waifus = {
 type Attributes: 'str' | 'dex' | 'int' | 'faith'; // create a type
 let player: Attributes = 'int';
 </pre>
+
+**Object with Type**
+<pre>
+type Player = {
+    name: string;
+    class: string;
+    height: number,
+    str: number;
+    int: number;
+    sta: number;
+    dex: number;
+    faith: number;
+};
+
+let player_2: Player = {name: 'Shin Leonhardt', class: 'Mage', height: 175, str: 40, int: 80, sta: 35, dex:40, faith:19}
+</pre>
