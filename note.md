@@ -46,3 +46,8 @@ const my_wife: Waifus = {
 } // The value carried by the keys can be either string or number since it is declared as string|number
 </pre>
 
+**Create Type**
+<pre>
+type Attributes: 'str' | 'dex' | 'int' | 'faith'; // create a type
+let player: Attributes = 'int';
+</pre>
