@@ -25,9 +25,9 @@ function ultimate_waifu_object( waifu_object:{name: string, age: number | string
     return waifus_properties
 }
 
-let waifu = {name: "Bronya", age: 19, fav_food: "Moon cake", fav_drink: "cocktail", fav_spec: "hacker"}
+const waifu = {name: "Bronya", age: 19, fav_food: "Moon cake", fav_drink: "cocktail", fav_spec: "hacker"}
 
-let my_wife = {
+const my_wife = {
     name: "Bronya",
     age: 19,
     favorite_food: {
