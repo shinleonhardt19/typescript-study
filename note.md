@@ -14,7 +14,13 @@
 <pre> let age: string | number | boolean = 36; // This is called Union type, anything beside this type will automatically error </pre>
 
 **Array type**
-<pre> let userName: string[] // Define an array<pre>
-<pre> let userName: (string | number)[] // Define an array which have the union of string and number</pre>
+<pre> 
+let userName: string[] // Define an array
+let userName: (string | number)[] // Define an array which have the union of string and number
+let userName: Array<string | number>; // Another way to define an array which have the union of string and number
+</pre>
+
+**Tuple type**
+<pre>let person: [string, number] = [`Bronya`,19]; // name, signature_number</pre>
 
 
