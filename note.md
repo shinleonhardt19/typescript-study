@@ -23,4 +23,17 @@ let userName: Array<string | number>; // Another way to define an array which ha
 **Tuple type**
 <pre>let person: [string, number] = [`Bronya`,19]; // name, signature_number</pre>
 
+**Object type**
+<pre>let my_wife = {
+    name: "Bronya",
+    age: 19,
+    favorite_food: {
+        cooked_meal: ["Beef stew", "Steak", "Lasagna"],
+        drink: ["Cocktail", "Champange", "Lemon soda"],
+        desert: ["Tiramissu", "Mousse", "Souffle"]
+    },
+    job: "Hacker"
+}</pre>
+
+
 
