@@ -68,3 +68,4 @@ type Player = {
 let player_2: Player = {name: 'Shin Leonhardt', class: 'Mage', height: 175, str: 40, int: 80, sta: 35, dex:40, faith:19}
 </pre>
 
+**
