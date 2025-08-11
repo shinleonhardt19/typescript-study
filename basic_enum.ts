@@ -1,6 +1,4 @@
 // Basic enum
-
-
 // We can actually create a type
 type attributes = 'str' | 'dex' | 'int' | 'faith';
 
